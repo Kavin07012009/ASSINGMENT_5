@@ -1,7 +1,7 @@
 # CSA08 Assignment 5 CO5
 
-**Student:** [Enter full name]  
-**Register number:** [Enter register number]  
+**Student:** KAVIN SANDRON
+**Register number:** [1912260623
 **Python version:** Python 3.14.7  
 **Libraries:** Python standard library; pandas and matplotlib for Tasks B1 and B3 (see `requirements.txt`).
 
