@@ -1,0 +1,12 @@
+Before cleaning: ['station,date,hour,pm25,pm10,no2,temperature,temp_unit', 'Adyar,2026-10-01,08,48,72,19,29,C', 'Adyar,2026-10-02,08,NA,70,18,30,C', 'Adyar,2026-10-03,08,,68,17,31,C', 'Guindy,2026-10-01,08,95,130,31,86,F', 'Guindy,2026-10-02,08,-5,120,29,88,F', 'Guindy,2026-10-03,08,121,155,37,90,F', 'Velachery,2026-10-01,08,80,111,25,32,C', 'Velachery,2026-10-01,08,80,111,25,32,C', 'T Nagar,2026-10-02,08,1200,200,45,30,C', 'adyar,2026-10-04,09,51,74,20,30,C', 'Adyar,2026-13-40,10,42,70,18,30,C', 'Adyar,2026-10-04,27,42,70,18,30,C', 'Adyar,2026-10-04,10,high,70,18,30,C', 'Adyar,2026-10-04,11,44']
+After cleaning: [('Adyar', '2026-10-01', 8, 48.0, 29.0), ('Adyar', '2026-10-02', 8, 48.0, 30.0), ('Adyar', '2026-10-03', 8, 48.0, 31.0), ('Guindy', '2026-10-01', 8, 95.0, 30.0), ('Guindy', '2026-10-03', 8, 121.0, 32.22), ('Velachery', '2026-10-01', 8, 80.0, 32.0), ('Adyar', '2026-10-04', 9, 51.0, 30.0)]
+Quality notes (rejected, filled, or duplicate): [(6, 'impossible PM2.5 outside 0..999'), (10, 'impossible PM2.5 outside 0..999'), (12, 'month must be in 1..12'), (13, 'hour outside 0..23'), (14, "could not convert string to float: 'high'"), (15, 'short row or missing column'), (3, 'missing PM2.5 filled with 48'), (4, 'missing PM2.5 filled with 48'), (0, "duplicate station/hour ('Velachery', '2026-10-01', 8)")]
+File validation: empty.csv empty file: zero rows
+File validation: missing_column.csv invalid header: required columns missing
+File validation: utf16.csv encoding error: invalid start byte
+File validation: wrong_delimiter.csv invalid header: required columns missing
+Adyar October mean [(48.75,)]
+Station mean [('Adyar', 48.75), ('Guindy', 108.0), ('Velachery', 80.0)]
+Worst readings by station/hour [('Guindy', '2026-10-03', 8, 121.0), ('Guindy', '2026-10-01', 8, 95.0), ('Velachery', '2026-10-01', 8, 80.0)]
+Charts saved as SVG: trend, station bar, temperature scatter, PM2.5 histogram
+Database: /Users/kavinsandron/Documents/Codex/2026-11-13/complete-me-the-assingment-and-give/CO5/outputs/air_quality.db

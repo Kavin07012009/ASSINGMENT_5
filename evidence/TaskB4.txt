@@ -1,0 +1,55 @@
+positive expected=positive | The road is clean and buses are fast
+negative expected=negative | The air is bad near the factory
+negative expected=negative | The staff were not helpful
+positive expected=positive | Not bad service improved
+negative expected=negative | Smoke is making the air dirty
+positive expected=positive | The new route is better and safe
+negative expected=negative | The bus is slow and broken
+positive expected=positive | Clean streets and helpful staff
+negative expected=negative | Air quality is poor today
+positive expected=positive | The response was good and fast
+negative expected=negative | The traffic is bad and noisy
+positive expected=positive | The station is clean
+negative expected=negative | The air is dirty near school
+positive expected=positive | Service improved this month
+negative expected=negative | No good update from officials
+positive expected=positive | The bus is fast and safe
+negative expected=negative | The smell is bad
+positive expected=positive | The road is better now
+negative expected=negative | The monitor is broken again
+positive expected=positive | Helpful staff fixed the issue
+negative expected=negative | The air is not clean today
+positive expected=positive | The bus service is good
+negative expected=negative | Smoke levels are high
+positive expected=positive | The new schedule is improved
+negative expected=negative | The traffic is slow
+positive expected=positive | The street is clean and safe
+negative expected=negative | The station display is broken
+positive expected=positive | The reply was helpful
+negative expected=negative | Bad air and dirty roads
+positive expected=positive | The service is better
+negative expected=negative | The bus was not fast
+positive expected=positive | The air is good near the park
+negative expected=negative | The sensor is broken
+positive expected=positive | The road crew was helpful
+negative expected=negative | The factory smoke is bad
+positive expected=positive | The route improved
+negative expected=negative | The air is poor
+positive expected=positive | Good work cleaning the street
+negative expected=negative | The bus is slow today
+positive expected=positive | The update is helpful
+positive expected=positive | Not bad
+negative expected=negative | Not good
+neutral  expected=neutral  | The air is clean but traffic is bad
+neutral  expected=neutral  | The bus is fast but the station display is broken
+neutral  expected=negative | The problem is not improving
+neutral  expected=neutral  | There is smoke but the road is clean
+positive expected=positive | The response was good
+negative expected=negative | The air is dirty
+positive expected=positive | The new monitor is helpful
+negative expected=negative | The situation is bad
+Lexicon agreement: 49/50 = 98.0%
+Frequency-ranked summary: The road is clean and buses are fast. Not bad service improved. Clean streets and helpful staff. The response was good and fast. Service improved this month.
+First-five sentence baseline: The road is clean and buses are fast The air is bad near the factory The staff were not helpful Not bad service improved Smoke is making the air dirty
+Index query same result: True [(110.0,)]
+Query time before index: 0.009744s; indexed median: 0.000005s; speedup: 1785.31x

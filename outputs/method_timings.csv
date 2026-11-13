@@ -1,0 +1,4 @@
+stations,readings,loop_seconds,pandas_seconds,sql_seconds
+1,8760,0.001,0.0015,0.0032
+12,105120,0.0119,0.015,0.0449
+120,1051200,0.1301,0.1528,0.4705

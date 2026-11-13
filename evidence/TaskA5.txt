@@ -1,0 +1,6 @@
+positive | Roads are clean and the bus was fast.
+negative | Smoke from the factory; air is bad.
+negative | The staff were not helpful.
+positive | Not bad, service improved.
+Summary: The road is dirty. The road is dirty near school.
+Chatbot: PM2.5 at Adyar on 2026-10-01: 48.0

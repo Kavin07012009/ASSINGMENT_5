@@ -1,0 +1,4 @@
+rows_read,rows_kept,elapsed_seconds,raw_plus_cleaned_dataframe_bytes
+1000,1000,0.0032,272132
+100000,100000,0.0156,27200132
+1051200,1051200,0.1501,285926532

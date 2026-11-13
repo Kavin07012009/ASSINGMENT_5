@@ -1,0 +1,11 @@
+missing column: missing required column -> rejected
+wrong delimiter: missing required column -> rejected
+UTF-16 bytes read as UTF-8: UnicodeDecodeError (invalid start byte)
+empty file: empty file -> 0 rows
+Unsafe concatenated SQL: SELECT AVG(pm25) FROM readings WHERE station = 'Adyar' OR '1'='1'
+Unsafe query result: (71.5,)
+Parameterized attack result: None
+neutral  | score= 0 | This is not bad, but the road is dirty.
+positive | score= 1 | Not unhappy and not bad.
+neutral  | score= 0 | The air is good but the traffic is bad.
+negative | score=-1 | Great, another day breathing smoke.
